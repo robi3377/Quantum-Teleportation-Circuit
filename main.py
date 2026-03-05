@@ -21,7 +21,7 @@ except ImportError:
 THETA = np.pi / 3   # 60 degrees
 PHI   = np.pi / 4   # 45 degrees
 SHOTS = 2048*2
-OUTPUT_DIR = "iamges"
+OUTPUT_DIR = "images"
 
 
 def get_message_statevector(theta, phi):
